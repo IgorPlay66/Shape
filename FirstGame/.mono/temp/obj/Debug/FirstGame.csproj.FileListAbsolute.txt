@@ -1,0 +1,8 @@
+D:\GodotProjects\FirstGame\.mono\temp\bin\Debug\FirstGame.dll
+D:\GodotProjects\FirstGame\.mono\temp\bin\Debug\FirstGame.pdb
+D:\GodotProjects\FirstGame\.mono\temp\obj\Debug\FirstGame.csprojAssemblyReference.cache
+D:\GodotProjects\FirstGame\.mono\temp\obj\Debug\FirstGame.AssemblyInfoInputs.cache
+D:\GodotProjects\FirstGame\.mono\temp\obj\Debug\FirstGame.AssemblyInfo.cs
+D:\GodotProjects\FirstGame\.mono\temp\obj\Debug\FirstGame.csproj.CoreCompileInputs.cache
+D:\GodotProjects\FirstGame\.mono\temp\obj\Debug\FirstGame.dll
+D:\GodotProjects\FirstGame\.mono\temp\obj\Debug\FirstGame.pdb

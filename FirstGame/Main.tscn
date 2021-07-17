@@ -1,0 +1,65 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://Player.tscn" type="PackedScene" id=1]
+[ext_resource path="res://StaticBody2D.tscn" type="PackedScene" id=2]
+[ext_resource path="res://menu (1) 1.png" type="Texture" id=3]
+[ext_resource path="res://black.jpg" type="Texture" id=4]
+
+[sub_resource type="OccluderPolygon2D" id=1]
+polygon = PoolVector2Array( 5120, 5120, 56.248, 5120, 0, 0, 5120, 0 )
+
+[sub_resource type="TileSet" id=2]
+0/name = "menu (1) 1"
+0/texture = ExtResource( 3 )
+0/tex_offset = Vector2( -5.814, 0 )
+0/modulate = Color( 1, 1, 1, 1 )
+0/region = Rect2( 0, 0, 5120, 5120 )
+0/tile_mode = 0
+0/occluder_offset = Vector2( 2560, 2560 )
+0/occluder = SubResource( 1 )
+0/navigation_offset = Vector2( 2560, 2560 )
+0/shape_offset = Vector2( 0, 0 )
+0/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+0/shape_one_way = false
+0/shape_one_way_margin = 0.0
+0/shapes = [  ]
+0/z_index = 0
+
+[node name="Node2D" type="Node2D"]
+
+[node name="black2" type="Sprite" parent="."]
+position = Vector2( 820.387, 370.317 )
+texture = ExtResource( 4 )
+
+[node name="Player" parent="." instance=ExtResource( 1 )]
+position = Vector2( 382.017, 72.1142 )
+
+[node name="TileMap" type="TileMap" parent="."]
+tile_set = SubResource( 2 )
+centered_textures = true
+format = 1
+
+[node name="StaticBody2D" parent="." instance=ExtResource( 2 )]
+position = Vector2( 352, 416 )
+rotation = -6.28319
+
+[node name="StaticBody2D2" parent="." instance=ExtResource( 2 )]
+position = Vector2( 416, 416 )
+rotation = -6.28319
+
+[node name="StaticBody2D3" parent="." instance=ExtResource( 2 )]
+position = Vector2( 480, 416 )
+rotation = -6.28319
+
+[node name="StaticBody2D4" parent="." instance=ExtResource( 2 )]
+position = Vector2( 544, 416 )
+rotation = -6.28319
+
+[node name="Button" type="Button" parent="."]
+margin_left = 64.0
+margin_top = 64.0
+margin_right = 88.0
+margin_bottom = 84.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
