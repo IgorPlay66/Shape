@@ -1,11 +1,28 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=4 format=2]
 
-[ext_resource path="res://new_script.gd" type="Script" id=1]
-[ext_resource path="res://KinematicBody2D.cs" type="Script" id=2]
+[ext_resource path="res://Player.tscn" type="PackedScene" id=1]
+[ext_resource path="res://block.tscn" type="PackedScene" id=2]
+
+[sub_resource type="GDScript" id=1]
+script/source = "extends Node
+#ABOBA
+#ghghgh
+"
 
 [node name="Node2D" type="Node2D"]
-script = ExtResource( 1 )
+script = SubResource( 1 )
 
-[node name="KinematicBody2D" type="KinematicBody2D" parent="."]
-position = Vector2( 1024.85, 595.237 )
-script = ExtResource( 2 )
+[node name="KinematicBody2D" parent="." instance=ExtResource( 1 )]
+position = Vector2( 560, 358 )
+
+[node name="StaticBody2D" parent="." instance=ExtResource( 2 )]
+position = Vector2( 530.357, 478.048 )
+scale = Vector2( 3.88, 2.635 )
+
+[node name="StaticBody2D2" parent="." instance=ExtResource( 2 )]
+position = Vector2( 727.968, 475.525 )
+scale = Vector2( 3.88, 2.635 )
+
+[node name="StaticBody2D3" parent="." instance=ExtResource( 2 )]
+position = Vector2( 317.61, 477.207 )
+scale = Vector2( 3.88, 2.635 )
