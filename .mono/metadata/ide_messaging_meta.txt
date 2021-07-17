@@ -1,2 +1,2 @@
-﻿53343
-D:/Игорь/Documents/Godot_v3.3.2-stable_mono_win64/Godot_v3.3.2-stable_mono_win64/Godot_v3.3.2-stable_mono_win64.exe
+﻿62380
+C:/Users/user/AppData/Local/Temp/Rar$EXa14460.45932/Godot_v3.3.2-stable_mono_win64/Godot_v3.3.2-stable_mono_win64.exe
