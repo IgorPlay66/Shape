@@ -1,0 +1,6 @@
+[gd_scene format=2]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="KinematicBody2D" type="KinematicBody2D" parent="."]
+position = Vector2( 191.098, 120.717 )
