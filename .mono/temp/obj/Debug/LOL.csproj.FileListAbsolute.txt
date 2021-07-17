@@ -1,0 +1,8 @@
+D:\Git\Shape\.mono\temp\bin\Debug\LOL.dll
+D:\Git\Shape\.mono\temp\bin\Debug\LOL.pdb
+D:\Git\Shape\.mono\temp\obj\Debug\LOL.csprojAssemblyReference.cache
+D:\Git\Shape\.mono\temp\obj\Debug\LOL.AssemblyInfoInputs.cache
+D:\Git\Shape\.mono\temp\obj\Debug\LOL.AssemblyInfo.cs
+D:\Git\Shape\.mono\temp\obj\Debug\LOL.csproj.CoreCompileInputs.cache
+D:\Git\Shape\.mono\temp\obj\Debug\LOL.dll
+D:\Git\Shape\.mono\temp\obj\Debug\LOL.pdb
